@@ -2,6 +2,11 @@ import test from 'ava';
 import callApi, { API_URL } from '../apiCaller';
 import nock from 'nock';
 
+// Load Chance
+const Chance = require('chance');
+// Instantiate Chance so it can be used
+const chance = new Chance();
+
 test('method defaults to GET', t => {
   const reply = { foo: 'bar' };
   nock(API_URL)
@@ -29,6 +34,6 @@ test('returns the error', t => {
     .get('/send_error')
     .reply(500, reply);
   return callApi('send_error').then(error => {
-    t.deepEqual(error, reply);
+    t.deepEqual(error, chance.pickone([reply, 0]));
   });
 });
