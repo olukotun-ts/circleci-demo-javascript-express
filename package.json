@@ -86,7 +86,7 @@
     "mock-css-modules": "^1.0.0",
     "mockgoose": "^8.0.4",
     "nock": "^13.1.4",
-    "nodemon": "^1.9.2",
+    "nodemon": "^2.0.14",
     "null-loader": "^0.1.1",
     "nyc": "^15.1.0",
     "postcss-cssnext": "^2.6.0",
