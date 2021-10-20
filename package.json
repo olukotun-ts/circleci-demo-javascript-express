@@ -51,7 +51,7 @@
     "react-router": "^2.4.1",
     "redux": "^3.5.2",
     "redux-thunk": "^2.1.0",
-    "sanitize-html": "^1.11.4"
+    "sanitize-html": "^2.5.2"
   },
   "devDependencies": {
     "ava": "^0.15.2",
@@ -68,9 +68,9 @@
     "chai": "^3.5.0",
     "chunk-manifest-webpack-plugin": "0.1.0",
     "coveralls": "^3.1.1",
-    "css-loader": "^0.23.1",
+    "css-loader": "^6.4.0",
     "css-modules-require-hook": "^4.0.1",
-    "cssnano": "^3.7.0",
+    "cssnano": "^5.0.8",
     "enzyme": "^2.3.0",
     "eslint": "^2.11.1",
     "eslint-config-airbnb": "^9.0.1",
