@@ -117,21 +117,6 @@
   "engines": {
     "node": ">=4"
   },
-  "ava": {
-    "files": [
-      "client/**/*.spec.js",
-      "server/**/*.spec.js"
-    ],
-    "source": [
-      "client/**/*.js",
-      "server/**/*.js"
-    ],
-    "failFast": true,
-    "babel": "inherit",
-    "require": [
-      "./server/util/setup-test-env.js"
-    ]
-  },
   "nyc": {
     "include": [
       "client/**/*.js",
